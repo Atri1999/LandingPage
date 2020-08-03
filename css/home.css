@@ -1,0 +1,17 @@
+*{
+    border:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /*display:inline-block;*/
+}
+
+.container{
+    margin: 0px;
+    display:grid;
+    grid-template-rows: 200px 100px auto 300px;
+    /*padding:10px;*/
+}
+.container>div{
+    border:1px black solid;
+    padding:20px;
+}
